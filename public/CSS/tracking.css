@@ -1,0 +1,74 @@
+:root{
+    --firstreleasebck:#FFCAC8;
+    --firstrelease:#FB2576;
+    --release:#38E54D;
+    --releasebck:#E7FBBE;
+    --foundbookbck:#FDFFAE;
+    --foundbook:#FDFF00;
+}
+section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.cover{
+    margin-right: 30px;
+    width: 128px;
+    height: 189px;
+    margin-top: 30px;
+}
+
+h1{
+    margin-top: 300px;
+    margin-bottom: 50px;
+    font-size: 1.9rem;
+    font-family: var(--primaryfont),var(--secondfont);
+    text-align: center;
+}
+
+.foundbook{
+background-color: var(--foundbookbck);
+border: 6px solid var(--foundbook);
+padding: 3px;
+
+}
+.bookrelease{
+    padding: 3px;
+    border: 6px solid var(--release);
+    background-color:var(--releasebck);
+}
+
+#firstrelease{
+    border: 6px solid var(--firstrelease);
+    background-color:var(--firstreleasebck);
+    margin-top: 30px;
+    padding: 3px;
+
+}
+
+h3{
+    font-size: 1.6rem;
+    font-family: var(--primaryfont),var(--secondfont);
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: var(--primaryfont),var(--secondfont);
+}
+.phidden{
+    height:24px ;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+
+.bookinfo{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
